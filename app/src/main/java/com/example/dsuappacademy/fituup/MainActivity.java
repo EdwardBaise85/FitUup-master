@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
         FragmentTransaction tx = getSupportFragmentManager().beginTransaction();
         tx.replace(R.id.flContent, new ProfileFragment());
         tx.commit();
-
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -86,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
                 fragmentClass = ExercisesFragment.class;
                 break;
             case R.id.progress:
-                fragmentClass = ProgressFragment.class;
+                fragmentClass = SupermanFragment.class;
                 break;
             case R.id.workout:
                 fragmentClass = WorkoutFragment.class;

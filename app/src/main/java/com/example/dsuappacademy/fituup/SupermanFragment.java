@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 /**
  * Created by dsuappacademy on 8/9/16.
  */
-public class ProgressFragment extends Fragment {
+public class SupermanFragment extends Fragment {
 
 
 
